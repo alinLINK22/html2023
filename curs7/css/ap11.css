@@ -1,0 +1,37 @@
+div{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    border: solid 1px black;
+}
+body{background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+input{
+    display: inline-block;
+    margin-top: 10px;
+    border: solid 1px black;
+}
+textarea{
+    display: inline-block;
+    margin-top: 10px;
+    border: solid 1px black;
+}
+p{
+    color: red;
+}
+h1{
+    color: red ;
+}
+
+textarea{
+    resize: none;
+}
+input:valid ,textarea:valid{
+    border-color: green;
+}
+input:invalid ,textarea:invalid{
+    border-color: red;
+}

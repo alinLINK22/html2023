@@ -1,0 +1,22 @@
+section{
+    border: 5px green solid;
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    padding: 10px;
+ 
+}   
+#div1{
+    width: 50%;
+    padding: 10px;
+     border: 5px red solid;
+    float: left;
+}
+#div2{
+    padding: 10px;
+    border: 5px blue solid;
+    float: right;
+}
+#div2 >img{
+    display: block;
+}

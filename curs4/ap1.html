@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 2px red solid;
+            border-collapse: collapse;
+        }
+       
+        table tr td, table tr th{
+            border: 1px blue solid;
+            padding: 10px;
+            
+        }
+        table tr:nth-child(2n){
+            color: brown;
+            background-color: aquamarine;
+        }
+        table tr:nth-child(2n+1){
+            color: blueviolet;
+            background-color: black;
+
+    }
+    table tr:first-child{
+            background-color: red;
+            color: aqua;
+        }
+        table tr:hover{
+            background-color: blue;
+            color: rgb(105, 162, 14);
+        }
+    </style>
+</head>
+<body>
+    <h1>primul meu tabel</h1>
+    <table>
+        <tr>
+            <th>nume</th>
+            <th>prenume</th>
+            <th>tel </th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>Marin</td>
+            <td>Alin</td>
+            <td>0721981230</td>
+            <td>alinmarin@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Duminic</td>
+            <td>Stefan</td>
+            <td>0722344098</td>
+            <td>duminic.stefan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Stan</td>
+            <td>Ana</td>
+            <td>0721987340</td>
+            <td>stanana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Dumitrache</td>
+            <td>Alex</td>
+            <td>0722345333</td>
+            <td>dumitr.alx@gmail.com</td>
+        </tr>
+        
+        
+    </table>
+    
+</body>
+</html>
